@@ -1,0 +1,63 @@
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*.wrapper-all{width:960px;margin:0 auto;}
+.column-clear{clear:both;}
+#header{border-bottom:5px solid #B9C8D9;margin-bottom:30px;}
+#title{font-size:35px;float:left;color:#526F82;}
+.menu{list-style:none;float:right;margin:20px 0px;}
+.menu li{display:inline;padding:0px 0px 0px 20px;}
+.menu li a{color:#385067;}
+.menu li a:hover{text-decoration:underline;}*/
+.wrapper{ width:100%;overflow:hidden;height:auto;position:relative; clear:both;}
+/*.drop-shadow{width:960px;height:23px;background:url(../images/drop-shadow.png) no-repeat 0 0;}*/
+.acc_ul{ height:auto; width:100%; float:left;}
+.acc_ul ._level0{ width:80px; float:left; height:300px; position:absolute; }/*border-left:5px solid #CCC; */
+/*.acc_ul ._level0 p{ font-size:25px; width:100%; float:left; text-align:center; font-weight:bold;}*/
+/*.alternate{ background:#666 !important;}*/
+.image1{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p1.jpg) no-repeat center center;}
+.image2{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p2.jpg) no-repeat center center;}
+.image3{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p3.jpg) no-repeat center center;}
+.image4{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p4.jpg) no-repeat center center;}
+.image5{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p5.jpg) no-repeat center center;}
+.image6{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p6.jpg) no-repeat center center;}
+.image7{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p7.jpg) no-repeat center center;}
+.image8{ background:url(http://www.jquerycss.com/jdemos/jquery-accordion/images/p8.jpg) no-repeat center center;}
+.insideContent, .insideContent2{width:660px;float:left;color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:12px;position:absolute;background: url(../images/bkg-content.png) repeat scroll 0 0 transparent;bottom: 0;left: 0;padding: 10px 20px;right: 0;z-index:0;}
+.insideContent2{width:950px;}
+.insideContent ul, .insideContent2 ul{ width:100%; float:left; list-style:circle;}
+.insideContent li, .insideContent2 li{ float:left; clear:both; font-family:Tahoma, Geneva, sans-serif; margin-bottom:5px;}
+.insideContent a, .insideContent2 a{color:#ff0000;}
+.insideContent strong, .insideContent2 strong{font-weight:bold;}
+.insideContent em, .insideContent2 em{ font-style:italic;}
+.title{font-family:Arial, Helvetica, sans-serif; color:#ffffff;font-size:20px;text-align:center; background:#526F82;padding:0px 0px;z-index:1;}
+
+.buttons{position:absolute;right:0;clear:both;overflow:hidden;}
+
+.previous{width:26px;height:26px;background:url("http://www.jquerycss.com/jdemos/jquery-accordion/images/previous.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;}
+.next{width:26px;height:26px;background:url("http://www.jquerycss.com/jdemos/jquery-accordion/images/next.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+.pauseAnimation{width:26px;height:26px;background:url("http://www.jquerycss.com/jdemos/jquery-accordion/images/stop.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+.playAnimation{width:26px;height:26px;background:url("http://www.jquerycss.com/jdemos/jquery-accordion/images/play.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+
+#example2{font-size:25px;color:#526F82;margin:30px 0px;}
+/*.title_horizontal{-moz-transform-origin:bottom right;-moz-transform:    rotate(-90deg); width:25px !important; margin-top:75px;}*/
+
+.title_horizontal{font-size:13px;text-align:center; background:#999;}
+.mozilla_rot{-webkit-transform: rotate(90deg); -webkit-transform-origin: bottom left;-moz-transform: rotate(90deg);-moz-transform-origin:left bottom; float:left;-ms-transform-origin: bottom left;filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-ms-transform: rotate(90deg);}
+.ie_rot{-ms-transform-origin: bottom left;filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-ms-transform: rotate(90deg);width:240px;}
+.opera_rot{-o-transform-origin: 0 0;-o-transform: rotate(90deg);}
+._inactiveClass{ opacity:.9;filter:alpha(opacity=90); /* For IE8 and earlier */}

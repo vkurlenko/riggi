@@ -1,0 +1,7 @@
+#AuthType Basic  
+#AuthName admin
+#AuthUserFile  	Z:/home/sweetstar3/www/.htpasswd   
+#require valid-user 
+AddDefaultCharset UTF-8
+
+php_flag register_globals on

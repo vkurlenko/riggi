@@ -1,0 +1,92 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
+<head>
+<title>jCarousel Examples</title>
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<!--
+  jQuery library
+-->
+<!--<script type="text/javascript" src="../js/lib/jquery-1.4.2.min.js"></script>-->
+<script language="javascript" type="text/javascript" src="../js/jquery.1.7.1.min.js"></script>
+<!--
+  jCarousel library
+-->
+<script language="javascript" type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="../js/lib/jquery.jcarousel.min.js"></script>
+<!--
+  jCarousel skin stylesheet
+-->
+<link rel="stylesheet" type="text/css" href="../js/lib/skins/ie7/skin.css" />
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+
+    jQuery('#mycarousel').jcarousel();
+	
+	function CarouselMouseWheel(event, delta) {
+
+	if (delta < 0) {  
+	
+	$('.jcarousel-next-horizontal').click();  
+	
+	}  else if (delta > 0)
+	
+	{ 
+	
+	$('.jcarousel-prev-horizontal').click();
+	
+	}
+	
+	}
+	
+	
+	$('#mycarousel').mousewheel(function (event, delta){
+		CarouselMouseWheel(event, delta);
+		
+		return false;
+		
+		});
+});
+
+</script>
+
+</head>
+<body>
+<div id="wrap">
+  <h1>jCarousel</h1>
+  <h2>Riding carousels with jQuery</h2>
+
+  <h3>Simple carousel</h3>
+  <p>
+    This is the most simple usage of the carousel with no configuration options.
+  </p>
+
+  
+  
+  <ul id="mycarousel" class="jcarousel-skin-ie7">
+						<li class="year">2012</li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><!--<a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a>--></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="year">2011</li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						<li class="tubeItem"><a href="#"><img src="/img/pic/tumb_tube.jpg" width="77" height="44" /></a></li>
+						
+					</ul>
+
+</div>
+
+</body>
+</html>

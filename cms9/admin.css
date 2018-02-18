@@ -1,0 +1,326 @@
+﻿*{font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+BODY
+{
+	margin: 5 5;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #3E3E3E;
+	background:#FFFFFF
+}
+
+UL
+{
+	/*margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 22px;*/
+	padding: 0; /* Убираем поля для браузера Firefox */
+margin: 0px; /* Отступ слева */
+}
+
+li{
+padding: 0; /* Убираем поля для браузера Firefox */
+margin: 0px; /* Отступ слева */
+}
+
+
+TABLE
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*border-collapse: collapse;*/
+}
+
+TH
+{
+	padding: 4px;
+	border: 1px solid Silver;
+	background-color: #EEEEEE;
+	font-size:10px
+}
+
+TR
+{
+	/*vertical-align: top;*/
+}
+
+TABLE.NoPad
+{
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0;
+}
+
+FORM
+{
+	margin: 0px;
+}
+
+P
+{
+	/*margin-top: 5px;
+	margin-bottom: 5px;*/
+}
+
+P.justify
+{
+	text-align: justify;
+}
+
+H3
+{
+	font-size: 16px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	color: #666666;
+}
+
+H4
+{
+	font-size: 14px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	color: #666666;
+}
+
+H1.Title
+{
+	color: White;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0;
+}
+
+H2.Title
+{
+	color: White;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+A.Title
+{
+	color: White;
+	text-decoration: none;
+}
+
+A:hover.Title
+{
+	color: White;
+	text-decoration: none;
+}
+
+INPUT, TEXTAREA, select
+{
+	font-family: Verdana, Geneva, Arial, Helvetica;
+	font-size: 11px;
+	/*border:1px solid #ccc;*/
+	/*width:300px*/
+}
+
+select{background:#CCCCFF;}
+
+
+textarea.t{
+width:100%; height:400px; font-family:'Courier New', Courier, monospace; color:#000066; padding:0
+}
+
+TD.NavPad
+{
+	width: 2px;
+}
+
+TD.Nav
+{
+	width: 87px;
+	height: 57px;
+}
+
+A
+{
+	color: #004FA1;
+	text-decoration: none;
+}
+
+A:hover
+{
+	text-decoration: underline;
+}
+
+.fsmall
+{
+	font-size: 11px;
+}
+
+A.Nav
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: White;
+	text-decoration: none;
+}
+
+A:hover.Nav
+{
+	text-decoration: none;
+}
+
+TABLE.GrayBox
+{
+	background-color: #E5E5E5;
+	border-collapse: collapse;
+	width: 200px;
+}
+
+TD.GrayBox
+{
+	padding: 5px 10px 5px 10px;
+}
+
+TD.Gray
+{
+	padding: 0;
+}
+
+TD.ContentBoxLeft
+{
+	padding: 30px 10px 5px 20px;
+}
+
+TD.ContentBoxRight
+{
+	padding: 30px 10px 5px 10px;
+}
+
+TD.Bottom
+{
+	padding: 2px 15px 1px 78px;
+	font-size: 11px;
+	background-color: #336699;
+	color: White;
+	border-bottom: 1px solid White;
+}
+
+DIV.Nav
+{
+	float: left;
+	width: 89px;
+	border-right: 1px solid White;
+	text-align: center;
+}
+
+TD.Copy
+{
+	background-color: #6699CC;
+	height: 17px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: White;
+	padding: 5px 15px 5px 20px;
+	font-size: 12px;
+}
+
+TABLE.BorderTable
+{
+width:100%;
+border-collapse: collapse;
+}
+TD.BorderTable1
+{
+vertical-align: top;
+border: 1px solid #DBE9F3;
+padding: 8px;
+}
+TD.BorderTable2
+{
+vertical-align: top;
+border: 1px solid #DBE9F3;
+padding: 8px;
+}
+TH.BorderTable1
+{
+padding-top:20px;
+padding-bottom:20px;
+text-align: left;
+}
+
+li, ul{list-style:none}
+
+
+fieldset, fieldset td{font-size:11px}
+fieldset{border:1px solid #eee; margin:20px 0 }
+fieldset legend{color:#006600; font-size:11px; font-weight:bold; padding:0 5px}
+
+a.serviceLink{display:block; width:-moz-fit-content; padding:20px 0; text-decoration:underline;}
+a.serviceLink:hover{text-decoration:none}
+a.serviceLink img{margin:-5px 5px -5px 0}
+
+.bigSubmit{/*width:100px;*/ height:50px}
+
+.admInput{width:400px}
+
+img{border:1px #ddd solid; background:#eee; padding:1px}
+img.noBg{background:none; border:0; padding:0}
+
+.smalltext{ font-size:10px}
+
+.highlight{background:#EAEAEA;}
+
+span.msgError, span.msgOk, span.msgNormal{display:block; font-size:10px; padding:5px; margin-bottom:2px}
+span.msgError{ color:#B32B32; background:#FFEEE8; border:2px solid #B32B32; }
+span.msgOk{ color:#009900;  background:#F0FFEF; border:2px solid #009900;}
+span.msgNormal{ color:#000;  background:none; border:0px solid #000;}
+
+table.cmsForm{margin:0;}
+table.cmsForm td{padding:5px 5px 5px 0}
+span.txt{display:block; margin:20px 0}
+
+.raw{color:#FF0000}
+.confirmed{color:#FF00FF}
+.accepted{color:#0000FF}
+.shipped{color:#FF9900}
+.paid{color:#009900}
+
+.bold{font-weight:bold}
+
+#authForm{margin:auto; width:300px; margin-top:300px}
+div.accessDenied{margin:auto; width:300px; padding:100px;}
+
+.note{margin-top:50px; color:#888}
+.note ul li{list-style:square; margin-left:20px; margin-top:10px; color:#888}
+.note p{margin:10px 0}
+
+span.imgInfo{display:block; text-align:center; font-size:10px}
+
+
+/*~~~~~~~~~~~~~~~~*/
+/* скролл галереи */
+/*~~~~~~~~~~~~~~~~*/
+
+#gallery{width:670px; /*left:50%;	margin-left:-400px;*/ position:relative; overflow:hidden; margin:10px 0 0 0; border:0px solid red}
+
+.scrollable 		{position:relative;	overflow:hidden; width: 600px;	height:60px;	float:left; border:0px solid green	}
+.scrollable .items	{width:20000em;	position:absolute;}
+.scrollable .items img{display:block; border:none}
+.scrollable .items a{border:1px solid #fff}
+.scrollable .items .selected{border:1px solid #f00}
+
+.items div.item	{float:left;}
+
+a.browse	{display:block;	width:15px;	height:15px;	float:left;	margin:27px 0px;	cursor:pointer;	font-size:1px;}
+#gallery a.browse{margin:19px 10px;}
+/*a.right		{clear:right; margin-right: 0px;background:url(/img/scroll/arrow_next.png) no-repeat;}*/
+a.right		{clear:right; margin-right: 0px;background:url(/cms9/img/ui-icons.png) no-repeat; background-position: -48px -192px;}
+a.left		{margin-left: 0px; background:url(/cms9/img/ui-icons.png) no-repeat; background-position: -80px -192px;} 
+a.disabled {margin-left: 0px; background:none; cursor:auto/*visibility:hidden !important;*/		} 
+
+a.view{display:block; float:left; margin-left:1px}
+
+fieldset.gallery{padding:0; margin:0}
+
+/*~~~~~~~~~~~~~~~~~*/
+/* /скролл галереи */
+/*~~~~~~~~~~~~~~~~~*/
+

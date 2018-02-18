@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sliderPromo {overflow: hidden;}
+
+.scrollable {float: left; height: 480px; overflow: hidden; position: relative; width: 100%; visibility:hidden}
+.scrollable .items {position: absolute; width: 20000em;}
+
+.items div.item {float: left;}
+
+.view {display: block; float: left; position:relative; width:1200px}
+
+.scrollable .items img {border: medium none; display: block;}
+
+a.browse{position:absolute; bottom:-63px; z-index:2; padding:20px }
+a.disabled{background: none repeat scroll 0 0 transparent; cursor: default; margin-left: 0; /*display:none;*/}
+a.left{/*background: url("/img/tpl/arrow_left.png"); margin-left: 25px;*/ left:250px}
+a.right{/*background: url("/img/tpl/arrow_right.png");*/ clear: right; /*margin-right: 25px;*/ right:250px; }

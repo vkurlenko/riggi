@@ -1,0 +1,383 @@
+/* CSS Document */
+
+/* GLOBAL SETTINGS */
+
+*{color:#FFFFFF; font-family:tahoma; outline:none}
+
+html{background:#333}
+
+body{background:#333}
+
+img{border:0}
+
+input{outline:none}
+
+body, div{margin:0; padding:0}
+
+#divMain{/*position:absolute; z-index:0; width:100%; */ position:relative; z-index:1; overflow:hidden}
+
+#bg{position:absolute; z-index:0; top:0; left:0; width:100%; height:100%}
+
+.blockHeader{/*background:#CC3333;*/ position:relative; height:18%; max-height:80px; overflow:hidden}
+.blockContent{/*background:#00CC66;*/  position:relative; height:66%; border-bottom:1px dotted #fff;}
+.blockFooter{/*background:#0066FF;*/  position:relative; height:15%; max-height:123px; visibility:hidden}
+/* /GLOBAL SETTINGS */
+
+
+
+/* главное меню */
+ul.menuMain{padding:0 25px 0 80px; margin:0; position:absolute;}
+ul.menuMain li{display:block; position:relative; float:left; margin:0 0 0 0; padding:0}
+ul.menuMain li a{color:#fc9; margin-top:2px; /*font-size:18px;*/font-size:16px; text-transform:uppercase; text-decoration:none; display:block;}
+ul.menuMain li a:hover{color:#fff}
+ul.menuMain li a.logo{width:136px;/*color:#fff !important; font-family:"Times New Roman"; font-size:36px; margin-top:-15px*/ margin-top:-7px}
+ul.menuMain li a.tube{margin-top:3px}
+ul.menuMain li a.tube img{border:0}
+
+ul.menuMain li a.active{color:#fff}
+/* /главное меню */
+
+
+/* футер */
+.footerBar{position:absolute; bottom:0; /*background:#003333;*/ height:50px; width:100%}
+.footerBarLeft{float:left; width:50%;}
+.footerBarRight{float:right; width:50%}
+
+.footerBarR{float:right;/* background:#009999*/}
+
+/* нижнее меню */
+ul.menuFoot{display:block; margin:13px 0 0 50px; float:left; /*background:#990000*/}
+ul.menuFoot li{display:block; float:left; list-style:disc}
+ul.menuFoot li a{color:#fc9; font-size:11px; text-decoration:none; display:block;}
+ul.menuFoot li a:hover{text-decoration:underline}
+/* /нижнее меню */
+
+
+.bullet{color:#fc9; font-size:8px; margin:0 11px 0; line-height:15px }
+.l{float:right; width:1px; height:30px; margin-top:7px; background:#fc9}
+.iconSound{display:block; float:right; padding:10px 6px 0 11px; margin:0 15px}
+.social{margin-top:10px; display:block; float:left}
+.fb{margin-left:25px}
+.tw{margin-left:17px}
+.fb-like{margin:12px 0 0 21px}
+.vincinelli{margin:18px 28px 0 0}
+
+/* поиск */
+.search{ max-width:182px; float:right; width:180px; height:18px; background:#FFFFFF; 
+-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; 
+background:url(/img/tpl/icon_search.png)  2px center no-repeat #fff; margin-top:12px; margin-right:27px; position:relative}
+.search form{padding:0; margin:0}
+.search input{border:0; height:16px; margin:0 0 0 20px; padding:0; font-size:11px; width:100%; background:#fff; color:#300}
+.search a{float:right; position:absolute; right:0; top:0 }
+.search a img{-webkit-border-top-right-radius: 5px;-webkit-border-bottom-right-radius: 5px;-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+/* /поиск */
+
+/* /футер */
+
+
+/* Главная */
+
+.tplMain{} 
+.tplMain .blockHeader {}
+.tplMain .blockContent{/* min-height:500px*/}
+.tplMain .blockFooter {min-height:164px}
+
+
+.mainCont1, .mainCont2{height:50%; position:relative}
+.mainCont1{/*background:#000*/}
+.mainCont2{/*background:#00FFFF*/}
+
+.plash img{display:none}
+.plash1{position:absolute; height:80%; max-height:140px; left:-1000px; bottom:25px; /*background:#990033;*//* margin-left:-35%*/}
+.plash2{position:absolute; height:80%; max-height:340px; left:46%; bottom:25px;/* background:#FFFF00*//* margin-left:-22%*/}
+.plash3{position:absolute; height:80%; max-height:130px; left:3000px;/*left:80%;*/ bottom:25px; /*background:#FF6600;*/ /*margin-left:25%*/}
+/*.plash3 a{display:block; height:80%; max-height:130px; position:absolute; bottom:0}
+.plash3 img{max-height:130px;}*/
+
+
+.plash4{position:absolute; height:80%; max-height:230px;left:-1000px; top:25px; /*background:#990033;*//* margin-left:-35%*/}
+.plash5{position:absolute; height:80%; max-height:180px; left:58%; top:25px;/* background:#FFFF00*//* margin-left:-22%*/}
+.plash6{position:absolute; height:80%; max-height:140px; left:3000px;/*left:80%;*/ top:25px; /*background:#FF6600; *//*margin-left:25%*/}
+.plash a, .plash a em{color:#FFFFFF; text-decoration:none}
+.plash a em:hover{color:#fc9;}
+.plashText{position:absolute; font-style:normal; padding:7px 0; width:100%; bottom:0; left:0; background:url(/img/tpl/bg_plash.png) repeat; 
+font-size:13px; text-align:center; text-transform:uppercase; color:#fff; text-decoration:none}
+
+
+
+.newsLineCont{background:url(/img/tpl/bg_news_line.png) repeat}
+.newsLine{height:107px;/* background:#333333; */width:/*1220px*/ 90%; max-width:1220px; position:relative; left:50%; margin-left:-610px; /*padding-top:15px*/padding-top:10px}
+.newsLine .arrow{display:block; float:left; padding:34px 10px}
+.arrowR{}
+
+.newsHeader{float:left; width:/*380px*/ 30%; margin-left:29px}
+.newsHeader strong{text-transform:uppercase; font-size:14px; float:left}
+.newsDate{float:left; margin-left:42px; margin-top:2px; font-size:12px}
+.newsTitle{display:block; font-size:24px; line-height:1em; color:#999; text-transform:uppercase; text-decoration:none; margin-top:10px}
+
+.newsAbout{float:left; width:/*508px*/ 40%; margin-left:17px}
+.newsMore, .newsArch{font-size:12px; text-decoration:underline; display:block; float:left; margin-top:2px}
+.newsMore:hover, .newsArch:hover{text-decoration:none}
+.newsArch{color:#999; float:right}
+.newsShText{display:block; margin:10px 0 0 0; padding:0; float:left; color:#999; font-style:italic; font-size:17px; font-family:"Times New Roman", Times, serif}
+.newsTumb{display:block; float:left; margin:10px 28px 0 67px}
+
+/* /Главная */
+
+
+/* Коллекции */
+
+.tplColl{} 
+/*.tplColl ul.menuMain li a{color:#300;}
+.tplColl ul.menuMain li a.active{color:#fff;}*/
+
+.tplColl .blockContent{/*background:#009933;*/ border:0; overflow:hidden}
+
+/* /Коллекции */
+
+
+/* Текстовая */
+
+.tplText{} 
+
+.tplText .blockContent{/*background:#009933;*/ background:url(/img/tpl/bg_text.png); border:0; outline:none /**/;}
+.tplText .blockContent .blockContentInner{/*background:#0033FF;*/ /*border-top:1px dotted #fff; border-bottom:1px dotted #fff;*/ height:100%; overflow:hidden}
+.tplText .textBlock{height:100%;/* background:#0f0;*/ width:96%; position:absolute; left:2%; visibility:hidden; overflow:hidden }
+.tplText .textBlock .textImgCont{display:block; float:left; width:50%; /*max-width:55%;*/ overflow:hidden}
+.tplText .textBlock .textImgCont img{/*display:none*/}
+.tplText .textBlockContent{float:left; margin:120px 0 0 45px; width:45%}
+.tplText .textHead{font-size:14px; text-transform:uppercase; color:#999}
+.tplText .textTitle{font-size:24px; text-transform:uppercase; padding:25px 0; margin-top:25px }
+.tplText .textInner, .tplText .textInner div, .tplText .textInner *{font-size:17px; font-family:"Times New Roman", Times, serif; font-style:italic}
+
+.hide1{width:100%; z-index:3; height:50%; position:absolute; border-bottom:1px dotted #fff; background:#333/*url(/img/tpl/bg_text.jpg) left top*/;  top:-1px}
+.hide2{width:100%; z-index:3; height:53%; position:absolute; border-top:1px dotted #fff; background:#333/*url(/img/tpl/bg_text.jpg) left 50%*/; bottom:-1px}
+
+.hideAll{width:100%; z-index:2; height:100%; position:absolute; background:#333;}
+
+/* /Текстовая */
+
+/* Карта сайта */
+
+.tplSiteMap{} 
+
+.tplSiteMap .blockContent{/*background:#009933;*/ background:url(/img/tpl/bg_text.png); border:0; outline:none /**/;}
+.tplSiteMap .blockContent .blockContentInner{/*background:#0033FF;*/ border-top:1px dotted #fff; border-bottom:1px dotted #fff; height:100%}
+.tplSiteMap .textBlock{height:100%;/* background:#0f0;*/ width:96%; position:absolute; left:2%; }
+.tplSiteMap .textBlock img{display:block; float:left; max-width:55%}
+.tplSiteMap .textBlockContent{float:left; margin:20px 0 0 45px; width:90%}
+.tplSiteMap .textHead{font-size:14px; text-transform:uppercase; color:#999}
+.tplSiteMap .textTitle{font-size:24px; text-transform:uppercase; padding:25px 0; margin-top:0px }
+.tplSiteMap .textInner{}
+.tplSiteMap .textInner ul li a{font-style:normal; text-decoration:none; font-size:17px; font-family:"Times New Roman", Times, serif; font-style:italic}
+.tplSiteMap .textInner ul li a:hover{text-decoration:underline}
+
+/* /Карта сайта */
+
+
+/* Подписка */
+.tplSubscr .blockContent .blockContentInner{/*background:#0033FF;*/ height:100%}
+.tplSubscr .blockContent{border:0}
+.tplSubscr .textBlock{height:100%;/* background:#0f0;*/ width:96%; position:absolute; left:2%;  }
+.tplSubscr .textBlock .mapYa{display:block; float:left; width:70%;}
+.tplSubscr .textBlockContent{float:left; margin:0; background:#fff}
+
+.sbscr{background:#FFFFFF; width:400px;/* padding:20px;*/ position:relative; left:50%; margin-left:-200px}
+.sbscr .ok, .sbscr .error{/*padding:20px*/}
+.tplSubscr .sbscr .textBlockContent{width:100%}
+
+#formSubscribe input{width:100%; height:20px; background:#d9d9d9; border:0; color:#333; padding:0 5px; margin:4px 0; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;border-radius: 5px;} 
+/* /Подписка */
+
+
+/* Новости */
+
+.tplNews .blockContent{border:0}
+.newsItem{float:left; height:100%; margin-right:1px}
+.newsItem > a{display:block; height:100%}
+.newsSnippet{height:95px; background:url(/img/tpl/bg_news_tape.png); overflow:hidden; }
+.newsSnDate{font-size:12px; float:left; margin:10px 0 0 15px}
+.newsSnTitle{font-size:20px; color:#999; text-transform:uppercase; text-decoration:none; margin:9px 15px 15px; display:block}
+.newsSnMore{font-size:12px; text-decoration:underline; float:right; margin:10px 15px 0 0}
+.newsSnMore:hover{text-decoration:none}
+
+/* /Новости */
+
+/* Контакты */
+
+.tplCont .blockContent{border:0}
+
+
+
+.tplCont .blockContent .blockContentInner{/*background:#0033FF;*/ height:100%}
+.tplCont .textBlock{height:100%; background:#fff; width:96%; position:absolute; left:2%;  }
+.tplCont .textBlock .mapYa{display:block; float:left; width:69%;}
+.tplCont .textBlockContent{float:right; margin:0; width:30%; background:#fff}
+
+.contInfo{margin:42px 40px 36px 36px; }
+
+.infoHeader{font-size:24px; color:#300; text-transform:uppercase}
+.infoAddr{padding:0; margin:12px 0 0 0}
+.infoAddr em{font-family:"Times New Roman", Times, serif; font-size:18px; color:#666}
+.infoImg{margin:27px 0; }
+.infoText{font-size:12px; color:#666; margin:0; padding:0}
+
+.contInfo form{display:block; padding:0; margin:26px 0 0 0}
+.contInfo input, .contInfo textarea{width:100%; height:20px; background:#d9d9d9; border:0; color:#333; padding:0 5px; margin:4px 0; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;border-radius: 5px;} 
+.contInfo textarea{height:84px}
+
+.infoCaptcha{float:left}
+.infoCaptchaCheck{float:right; width:120px}
+.reloadCaptcha{font-size:10px; color:#999; text-decoration:none}
+#sendMsg{display:block; background:#001664; color:#fff; text-decoration:none; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;border-radius: 5px; width:100%; text-align:center; font-size:12px; height:18px; width:100%; padding:2px 5px 0; margin:4px 0}
+.reloadCaptcha:hover, #sendMsg:hover{text-decoration:underline}
+
+#map ymaps{color:#000000}
+
+.ok{color:#006633; font-size:12px; font-family:tahoma}
+.error{color:#CC0000; font-size:12px; font-family:tahoma}
+/* /Контакты */
+
+/* Tube */
+.tplTube .blockContent{border:0}
+.tubeContent{text-align:center; visibility:hidden /*background:#CC3300*/}
+.tubeLogo{height:22%; /*background:#00CC33;*/ position:relative}
+.tubeLogo img{display:block; position:absolute; top:50%; margin-top:-34px; left:50%; margin-left:-109px}
+.tubePleer{height:78%;/* background:#993366;*/}
+
+.tubeTape{position:absolute; bottom:0;  height:83px; width:100%; position:relative}
+.tubeTape > div{margin:0 20px;}
+.tubeTape ul{display:block; padding:0;  /*background:#006666;*/ height:100%; position:relative; overflow:hidden}
+.tubeTape ul li{display:block; float:left; margin-top:18px; padding:0 6px 0 8px; height:64px; width:77px; background:url(/img/tpl/bullet_short.gif) left bottom no-repeat;}
+.tubeTape ul li.year{background:url(/img/tpl/bullet_long.gif) left bottom no-repeat; padding-top:5px; height:59px; font-family:"Times New Roman", Times, serif; font-weight:bold; font-size:30px; font-style:italic; color:#000000}
+
+
+/* Магазины в картинках */
+
+.tplShopsPic .blockContent{border:0}
+.cityGallery{position:relative; width:100%; height:100%; overflow:auto; visibility:hidden /*background:#006666*/}
+.cityCenter{width:0; height:50px; position:relative; left:50%; top:50%; border-left:#FF0000 0px solid /*background:#CC3300*/}
+
+.cityPlash img{display:none; }
+.cityPlash{position:absolute;  border:8px solid #fff; background:#fff}
+/*-750*/
+.cityPlash1{left:-444px; top:-230px}
+.cityPlash3{left:-414px; top:45px}
+.cityPlash6{left:-662px; top:121px}
+.cityPlash7{left:-777px; top:-114px}
+.cityPlash9{left:-777px; top:-305px}
+/*+920*/
+.cityPlash2{left:-35px; top:-172px}
+.cityPlash4{left:-35px; top:0px}
+.cityPlash5{left:219px; top:-211px}
+.cityPlash8{left:420px; top:40px}
+.cityPlash10{left:505px; top:-290px}
+/*--*/
+.cityPlash11{left:-1194px; top:-230px}
+.cityPlash13{left:-1164px; top:45px}
+.cityPlash16{left:-1412px; top:121px}
+.cityPlash17{left:-1525px; top:-114px}
+.cityPlash19{left:-1527px; top:-305px}
+
+.cityPlash12{left:905px; top:-172px}
+.cityPlash14{left:905px; top:0px}
+.cityPlash15{left:1159px; top:-211px}
+.cityPlash18{left:1360px; top:40px}
+.cityPlash20{left:1445px; top:-290px}
+/*--*/
+.cityPlash21{left:-1944px; top:-230px}
+.cityPlash23{left:-1914px; top:45px}
+.cityPlash26{left:-2162px; top:121px}
+.cityPlash27{left:-2277px; top:-114px}
+.cityPlash29{left:-2277px; top:-305px}
+
+.cityPlash22{left:1825px; top:-172px}
+.cityPlash24{left:1825px; top:0px}
+.cityPlash25{left:2079px; top:-211px}
+.cityPlash28{left:2280px; top:40px}
+.cityPlash30{left:2365px; top:-290px}
+/*--*/
+.cityPlash31{left:-2694px; top:-230px}
+.cityPlash33{left:-2664px; top:45px}
+.cityPlash36{left:-2912px; top:121px}
+.cityPlash37{left:-3027px; top:-114px}
+.cityPlash39{left:-3027px; top:-305px}
+
+.cityPlash32{left:2744px; top:-172px}
+.cityPlash34{left:2744px; top:0px}
+.cityPlash35{left:2999px; top:-211px}
+.cityPlash38{left:3200px; top:40px}
+.cityPlash40{left:3285px; top:-290px}
+/*--*/
+.cityPlash41{left:-3444px; top:-230px}
+.cityPlash43{left:-3414px; top:45px}
+.cityPlash46{left:-3662px; top:121px}
+.cityPlash47{left:-3777px; top:-114px}
+.cityPlash49{left:-3777px; top:-305px}
+
+.cityPlash42{left:3664px; top:-172px}
+.cityPlash44{left:3664px; top:0px}
+.cityPlash45{left:3919px; top:-211px}
+.cityPlash48{left:4120px; top:40px}
+.cityPlash50{left:4205px; top:-290px}
+
+
+
+
+/*.cityPlash11{left:-1070px; top:-123px}
+.cityPlash12{left:-1030px; top:-297px}
+.cityPlash13{left:900px; top:108px}
+.cityPlash14{left:898px; top:-233px}
+
+.cityPlash15{left:-950px; top:150px}
+.cityPlash16{left:-1195px; top:150px}
+.cityPlash17{left:-1283px; top:-7px}
+.cityPlash18{left:-1035px; top:0px}
+.cityPlash19{left:1219px; top:-211px}
+.cityPlash20{left:-1662px; top:45px}
+.cityPlash21{left:-1662px; top:-114px}
+.cityPlash22{left:1322px; top:40px}
+.cityPlash23{left:-1777px; top:-305px}
+.cityPlash24{left:1505px; top:-290px}
+.cityPlash25{left:-2070px; top:-123px}
+.cityPlash26{left:-2030px; top:-297px}
+.cityPlash27{left:1668px; top:32px}
+.cityPlash28{left:1888px; top:-233px}
+
+.cityPlash29{left:-2355px; top:-230px}
+.cityPlash30{left:-2335px; top:-15px}
+.cityPlash31{left:-2283px; top:-15px}
+.cityPlash32{left:-2035px; top:0px}
+.cityPlash33{left:2219px; top:-211px}
+.cityPlash34{left:-2662px; top:45px}
+.cityPlash35{left:-2662px; top:-114px}
+.cityPlash36{left:2322px; top:40px}
+.cityPlash37{left:-2777px; top:-305px}
+.cityPlash38{left:2505px; top:-290px}
+.cityPlash39{left:-3070px; top:-123px}
+.cityPlash40{left:-3030px; top:-297px}
+.cityPlash41{left:2668px; top:32px}
+.cityPlash42{left:2888px; top:-233px}*/
+
+.cityPlash a, .cityPlash em{text-decoration:none}
+.cityPlash em:hover{color:#fc9}
+.cityPlash em{position:absolute; font-style:normal; padding:7px 0; width:100%; bottom:0px; left:0px; 
+background:url(/img/tpl/bg_plash.png) repeat; font-size:13px; text-align:center; text-transform:uppercase}
+
+.linkGoogleMap{position:absolute; bottom:0; z-index:4; width:100%; text-align:center}
+.linkGoogleMap a{color:#FFCC99; font-size:18px}
+.linkGoogleMap a:hover{text-decoration:none}
+
+/* /Магазины в картинках */
+
+
+/* google карта */
+.infoWindowContent{color:#fff; background:#402C18; font-size:12px; padding:20px; width:311px}
+.infoWindowContent > div{padding:20px 15px 10px;/* height:300px; width:350px*/}
+.infoWindowContent > div > span{display:block; float:right}
+.infoWindowContent > div > div a{display:block; margin-top:20px; font-size:11px}
+/* /google карта */
